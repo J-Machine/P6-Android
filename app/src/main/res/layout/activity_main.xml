@@ -11,6 +11,7 @@
 
     <EditText
         android:id="@+id/edt1"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="@string/app_name"
@@ -115,6 +116,7 @@
         android:layout_marginLeft="16dp"
         android:layout_toEndOf="@+id/button3"
         android:layout_toRightOf="@+id/button3"
+
         android:text="+" />
 
     <Button
